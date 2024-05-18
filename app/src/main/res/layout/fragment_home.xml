@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btnCalculate"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="320dp"
+        android:layout_height="160dp"
+        android:src="@drawable/copa"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="62dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PRIZES"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="285dp"
+        android:layout_height="62dp"
+        android:text="CALCULATE"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="358dp" />
+
+    <EditText
+        android:id="@+id/tvCalc"
+        android:layout_width="296dp"
+        android:layout_height="58dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="286dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="271dp"
+        android:layout_height="54dp"
+        android:text="GO TO MENU"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="650dp" />
+
+    <EditText
+        android:id="@+id/editTextNumberDecimal2"
+        android:layout_width="302dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="1° place: "
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="427dp" />
+
+    <EditText
+        android:id="@+id/editTextNumber3"
+        android:layout_width="304dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="2° place:"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="475dp" />
+
+    <EditText
+        android:id="@+id/editTextNumber4"
+        android:layout_width="300dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="3° place:"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="527dp" />
+
+    <EditText
+        android:id="@+id/editTextNumber5"
+        android:layout_width="296dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="4°place:"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="571dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

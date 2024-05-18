@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="512dp"
+        android:layout_height="56dp"
+        android:text="Welcome to American Cup 2024"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="627dp" />
+
+    <TextView
+        android:id="@+id/tvInmmerse"
+        android:layout_width="387dp"
+        android:layout_height="142dp"
+        android:text="Inmerse yourselft in the excitiment off soccer as nations compete for glory in this epic tournament"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="700dp" />
+
+    <Button
+        android:id="@+id/btnget"
+        android:layout_width="308dp"
+        android:layout_height="94dp"
+        android:text="GET STARTED"
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="922dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="765dp"
+        android:layout_height="498dp"
+        app:srcCompat="@drawable/copa"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="129dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

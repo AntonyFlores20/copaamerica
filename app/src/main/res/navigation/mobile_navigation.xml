@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_Prizes">
+
+    <fragment
+        android:id="@+id/navigation_Prizes"
+        android:name="com.example.copaamrica.ui.home.HomeFragment"
+        android:label="@string/title_PRIZES"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_Teams"
+        android:name="com.example.copaamrica.ui.dashboard.DashboardFragment"
+        android:label="@string/title_Teams"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.copaamrica.ui.notifications.NotificationsFragment"
+        android:label="@string/title_Stadiums"
+        tools:layout="@layout/fragment_notifications" />
+</navigation>
